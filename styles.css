@@ -6,7 +6,7 @@
 .ana-real img{position:absolute;z-index:3;height:91%;width:auto;max-width:54%;object-fit:contain;left:50%;bottom:-5%;transform:translateX(-50%);filter:drop-shadow(0 28px 35px rgba(0,0,0,.42))}
 .ana-kicker,.ana-origin{position:absolute;z-index:4;color:#fff;font:500 10px "DM Mono",monospace;letter-spacing:.16em}
 .ana-kicker{top:28px;left:30px}.ana-origin{right:30px;bottom:26px;writing-mode:vertical-rl;transform:rotate(180deg)}
-.ana-title{position:absolute;z-index:1;top:8%;left:50%;transform:translateX(-50%);font:800 clamp(72px,12vw,205px)/.8 Manrope,sans-serif;letter-spacing:-.08em;color:#f2ead7;opacity:.96}
+.ana-title{position:absolute;z-index:1;top:8%;left:50%;transform:translateX(-50%);width:100%;text-align:center;white-space:nowrap;font:700 clamp(58px,9.5vw,165px)/.82 "Cormorant Garamond",Georgia,serif;letter-spacing:-.055em;color:#f2ead7;opacity:.96}
 .ana-seal{position:absolute;z-index:5;right:28px;top:28px;width:76px;height:76px;border:1px solid #caa34b;border-radius:50%;display:grid;place-content:center;text-align:center;color:#d9b75f;font:800 17px/1 Manrope,sans-serif;letter-spacing:.05em}
 .ana-seal small{font:500 7px "DM Mono",monospace;letter-spacing:.1em}
 .ana-script{position:absolute;z-index:5;left:28px;bottom:27px;color:#d9b75f;font:500 clamp(18px,2.2vw,32px)/1 Manrope,sans-serif;font-style:italic;letter-spacing:-.04em}
