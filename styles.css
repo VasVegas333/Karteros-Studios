@@ -11,3 +11,15 @@
 .ana-seal small{font:500 7px "DM Mono",monospace;letter-spacing:.1em}
 .ana-script{position:absolute;z-index:5;left:28px;bottom:27px;color:#d9b75f;font:500 clamp(18px,2.2vw,32px)/1 Manrope,sans-serif;font-style:italic;letter-spacing:-.04em}
 @media(max-width:800px){.ana-real{min-height:520px}.ana-real img{height:86%;max-width:70%}.ana-title{top:12%}.ana-origin{display:none}.ana-script{font-size:18px}}
+
+/* Single-project portfolio */
+.single-work{display:block!important}
+.single-work .flagship{width:100%;max-width:none}
+.single-work .flagship .ana-real{min-height:clamp(620px,72vw,940px)}
+.single-work .flagship .ana-real img{height:94%;max-width:46%}
+.flagship-caption{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(260px,.65fr);gap:32px;align-items:end;padding-top:24px!important}
+.flagship-caption strong{font-size:clamp(28px,4vw,58px)!important;line-height:.95!important;letter-spacing:-.055em}
+.flagship-caption span{max-width:520px;font-size:14px!important;line-height:1.6}
+.work-note{display:grid;grid-template-columns:1fr 2fr;gap:40px;padding:54px 0 10px;border-top:1px solid var(--line);margin-top:10px}
+.work-note p{margin:0;max-width:800px;font-size:clamp(20px,2.4vw,36px);line-height:1.2;letter-spacing:-.035em}
+@media(max-width:800px){.single-work .flagship .ana-real{min-height:560px}.single-work .flagship .ana-real img{max-width:74%;height:88%}.flagship-caption,.work-note{grid-template-columns:1fr;gap:16px}.work-note{padding-top:34px}}
