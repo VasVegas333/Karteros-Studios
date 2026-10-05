@@ -30,3 +30,7 @@
 /* Oversized stacked Ana's Estate title */
 .ana-title{font-size:clamp(88px,14vw,245px)!important;line-height:.62!important;letter-spacing:-.065em!important}
 @media(max-width:800px){.ana-title{font-size:clamp(70px,17vw,150px)!important;line-height:.64!important}}
+
+/* Open up stacked Ana's Estate title */
+.ana-title{line-height:.78!important}
+@media(max-width:800px){.ana-title{line-height:.8!important}}
