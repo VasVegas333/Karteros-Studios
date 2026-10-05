@@ -26,3 +26,7 @@
 
 .ana-title{display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:.68!important}
 .ana-title span{display:block}
+
+/* Oversized stacked Ana's Estate title */
+.ana-title{font-size:clamp(88px,14vw,245px)!important;line-height:.62!important;letter-spacing:-.065em!important}
+@media(max-width:800px){.ana-title{font-size:clamp(70px,17vw,150px)!important;line-height:.64!important}}
