@@ -60,3 +60,6 @@
 /* Official Spacedisco mark */
 .sd-logo{position:absolute;z-index:3;left:50%;top:50%;transform:translate(-50%,-50%);width:min(58%,680px);height:auto;object-fit:contain;filter:none}
 @media(max-width:800px){.sd-logo{width:72%}}
+
+/* Remove solid green centre disc from Spacedisco case study */
+.sd-orbit:after{display:none!important}
