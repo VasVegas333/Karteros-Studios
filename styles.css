@@ -34,3 +34,11 @@
 /* Open up stacked Ana's Estate title */
 .ana-title{line-height:.78!important}
 @media(max-width:800px){.ana-title{line-height:.8!important}}
+
+/* Improve title legibility behind product */
+.single-work .flagship .ana-real img{height:82%;max-width:38%;bottom:-3%}
+.ana-title{font-size:clamp(110px,17vw,300px)!important;line-height:.82!important;top:7%!important}
+@media(max-width:800px){
+  .single-work .flagship .ana-real img{height:78%;max-width:62%}
+  .ana-title{font-size:clamp(82px,21vw,180px)!important;line-height:.84!important;top:10%!important}
+}
