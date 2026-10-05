@@ -23,3 +23,6 @@
 .work-note{display:grid;grid-template-columns:1fr 2fr;gap:40px;padding:54px 0 10px;border-top:1px solid var(--line);margin-top:10px}
 .work-note p{margin:0;max-width:800px;font-size:clamp(20px,2.4vw,36px);line-height:1.2;letter-spacing:-.035em}
 @media(max-width:800px){.single-work .flagship .ana-real{min-height:560px}.single-work .flagship .ana-real img{max-width:74%;height:88%}.flagship-caption,.work-note{grid-template-columns:1fr;gap:16px}.work-note{padding-top:34px}}
+
+.ana-title{display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:.68!important}
+.ana-title span{display:block}
