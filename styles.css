@@ -2,7 +2,7 @@
 /* Ana's Estate — real product art direction */
 .ana-real{position:relative;overflow:hidden;background:#07194b!important;min-height:650px;isolation:isolate}
 .ana-real:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 48%,rgba(255,255,255,.13),transparent 35%),linear-gradient(135deg,transparent 0 46%,rgba(216,255,56,.08) 46% 47%,transparent 47%);z-index:0}
-.ana-real:after{content:"E.V.O.O";position:absolute;left:-.035em;bottom:-.17em;font:800 clamp(120px,18vw,330px)/.75 Manrope,sans-serif;letter-spacing:-.09em;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.18);z-index:0}
+.ana-real:after{content:"E.V.O.O";position:absolute;left:50%;bottom:-.17em;transform:translateX(-50%);width:max-content;text-align:center;font:700 clamp(120px,18vw,330px)/.75 "Cormorant Garamond",Georgia,serif;letter-spacing:-.055em;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.18);z-index:0}
 .ana-real img{position:absolute;z-index:3;height:91%;width:auto;max-width:54%;object-fit:contain;left:50%;bottom:-5%;transform:translateX(-50%);filter:drop-shadow(0 28px 35px rgba(0,0,0,.42))}
 .ana-kicker,.ana-origin{position:absolute;z-index:4;color:#fff;font:500 10px "DM Mono",monospace;letter-spacing:.16em}
 .ana-kicker{top:28px;left:30px}.ana-origin{right:30px;bottom:26px;writing-mode:vertical-rl;transform:rotate(180deg)}
