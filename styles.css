@@ -42,3 +42,17 @@
   .single-work .flagship .ana-real img{height:78%;max-width:62%}
   .ana-title{font-size:clamp(82px,21vw,180px)!important;line-height:.84!important;top:10%!important}
 }
+
+/* Spacedisco Records case study */
+.spacedisco-project{margin-top:72px}
+.spacedisco-art{position:relative;overflow:hidden;min-height:clamp(620px,72vw,940px);background:#0b0b0b!important;color:#f4f0e8;isolation:isolate}
+.spacedisco-art:before{content:"";position:absolute;inset:-20%;background:repeating-radial-gradient(circle at 50% 50%,transparent 0 58px,rgba(216,255,56,.16) 59px 60px,transparent 61px 116px);transform:rotate(-8deg);z-index:0}
+.spacedisco-art:after{content:"02";position:absolute;right:-.05em;bottom:-.2em;font:800 clamp(180px,28vw,480px)/.7 Manrope,sans-serif;letter-spacing:-.1em;color:transparent;-webkit-text-stroke:1px rgba(244,240,232,.13);z-index:0}
+.sd-kicker,.sd-signal{position:absolute;z-index:3;font:500 10px "DM Mono",monospace;letter-spacing:.16em}
+.sd-kicker{top:30px;left:30px;color:#d8ff38}.sd-signal{right:30px;bottom:30px;text-align:right;line-height:1.6}
+.sd-title{position:absolute;z-index:2;left:50%;top:48%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;font:800 clamp(100px,17vw,300px)/.62 Manrope,sans-serif;letter-spacing:-.085em;text-align:center}
+.sd-title span:last-child{font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-weight:700;letter-spacing:-.06em;color:#d8ff38}
+.sd-record{position:absolute;z-index:3;left:50%;top:69%;transform:translateX(-50%);font:500 clamp(18px,2.3vw,34px)/1 "DM Mono",monospace;letter-spacing:.5em;padding-left:.5em}
+.sd-orbit{position:absolute;z-index:1;width:min(55vw,620px);aspect-ratio:1;border:1px solid rgba(244,240,232,.28);border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%)}
+.sd-orbit:before,.sd-orbit:after{content:"";position:absolute;border:1px solid rgba(216,255,56,.35);border-radius:50%;inset:14%}.sd-orbit:after{inset:30%;background:#d8ff38;border:0;box-shadow:0 0 0 14px #0b0b0b,0 0 0 15px rgba(244,240,232,.22)}
+@media(max-width:800px){.spacedisco-project{margin-top:48px}.spacedisco-art{min-height:560px}.sd-title{font-size:clamp(76px,22vw,160px)}.sd-record{top:67%;letter-spacing:.3em}.sd-orbit{width:82vw}.sd-signal{left:24px;right:auto;text-align:left}}
