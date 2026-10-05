@@ -56,3 +56,7 @@
 .sd-orbit{position:absolute;z-index:1;width:min(55vw,620px);aspect-ratio:1;border:1px solid rgba(244,240,232,.28);border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%)}
 .sd-orbit:before,.sd-orbit:after{content:"";position:absolute;border:1px solid rgba(216,255,56,.35);border-radius:50%;inset:14%}.sd-orbit:after{inset:30%;background:#d8ff38;border:0;box-shadow:0 0 0 14px #0b0b0b,0 0 0 15px rgba(244,240,232,.22)}
 @media(max-width:800px){.spacedisco-project{margin-top:48px}.spacedisco-art{min-height:560px}.sd-title{font-size:clamp(76px,22vw,160px)}.sd-record{top:67%;letter-spacing:.3em}.sd-orbit{width:82vw}.sd-signal{left:24px;right:auto;text-align:left}}
+
+/* Official Spacedisco mark */
+.sd-logo{position:absolute;z-index:3;left:50%;top:50%;transform:translate(-50%,-50%);width:min(58%,680px);height:auto;object-fit:contain;filter:none}
+@media(max-width:800px){.sd-logo{width:72%}}
