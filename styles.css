@@ -63,3 +63,17 @@
 
 /* Remove solid green centre disc from Spacedisco case study */
 .sd-orbit:after{display:none!important}
+
+
+/* Interactive portfolio layer */
+.project .art{transform-style:preserve-3d;will-change:transform;transform:perspective(1200px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) scale(1);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.project:hover .art{transform:perspective(1200px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) scale(.99)}
+.ana-real img{transform:translateX(calc(-50% + var(--mx,0px))) translateY(var(--my,0px));transition:transform .25s ease-out}
+.sd-logo{transform:translate(calc(-50% + var(--mx,0px)),calc(-50% + var(--my,0px)));transition:transform .25s ease-out}
+.spacedisco-art:before{transition:transform .4s ease-out;transform:translate(calc(var(--mx,0px) * -.35),calc(var(--my,0px) * -.35)) rotate(-8deg)}
+.project .meta span:last-child{transition:letter-spacing .25s ease,color .25s ease}.project:hover .meta span:last-child{letter-spacing:.06em;color:var(--blue)}
+.ana-proof a{position:relative;overflow:hidden;transition:background .25s,color .25s}.ana-proof a:after{content:"→";position:absolute;right:16px;transform:translateX(-8px);opacity:0;transition:.25s}.ana-proof a:hover:after{transform:none;opacity:1}
+.service{cursor:pointer}.service>b{transition:transform .3s ease}.service:hover>b,.service.service-open>b{transform:rotate(45deg)}.service.service-open{padding-left:15px;background:#151515}
+.down{animation:downPulse 2.2s ease-in-out infinite}@keyframes downPulse{50%{transform:translateY(7px)}}.down:hover{animation:none}
+@media(max-width:800px){.project .art,.project:hover .art{transform:none}.service.service-open p{color:#fff}}
+@media(prefers-reduced-motion:reduce){.project .art,.ana-real img,.sd-logo,.spacedisco-art:before{transition:none}.down{animation:none}}
